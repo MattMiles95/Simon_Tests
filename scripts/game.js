@@ -62,6 +62,8 @@ function playerTurn() {
             showScore();
             addTurn();
         }
+    } else {
+        alert("Wrong move!");
     }
 }
 
